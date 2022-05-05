@@ -17,8 +17,9 @@ public class Strings {
                     counter++;
                     break;
                 }
+                System.out.println(j + "j");
             }
-
+            System.out.println(counter);
             if(counter > 0){
                 return aChar;
             }
